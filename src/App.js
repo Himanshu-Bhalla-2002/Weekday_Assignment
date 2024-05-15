@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Body from "./components/Body";
+import Body from "./components/Body/Body";
 import store from "./store";
 import { Provider } from "react-redux";
+import SideBar from "./components/SideBar/SideBar";
+import Header from "./components/Header/Header";
 const AppLayout = () => {
   return (
     <>
+      <Header />
+      <SideBar />
       <Body />
     </>
   );
@@ -19,3 +23,5 @@ root.render(
     <AppLayout />
   </Provider>
 );
+
+// root.render(<AppLayout />);

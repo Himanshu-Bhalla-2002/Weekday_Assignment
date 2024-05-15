@@ -1,7 +1,7 @@
 {
-  "name": "lecture3",
+  "name": "weekday_assignment",
   "version": "1.0.0",
-  "description": "This is lecture 3",
+  "description": "This is Weekday Assignment",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -16,6 +16,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.2",

@@ -1,0 +1,100 @@
+.job-card {
+  width: 350px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  color: #000000;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.job-detail-header,
+.job-salary,
+.job-description,
+.apply-link {
+  margin-bottom: 10px;
+}
+
+.job-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.job-info {
+  flex-grow: 1;
+}
+
+.company-name {
+  font-weight: bold;
+  color: #78716c;
+  text-decoration: none;
+}
+
+.job-role,
+.job-location,
+.job-salary {
+  color: #000000;
+}
+
+.job-role,
+.job-location {
+  font-size: 14px;
+}
+
+.job-salary {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.salary-tick {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.job-description {
+  flex-grow: 1;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.read-more {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.apply-link {
+  padding: 10px 0;
+  background-color: #55efc4;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  width: 100%;
+  border: 1px solid transparent;
+}
