@@ -23,7 +23,7 @@ You must have Node.js and npm installed on your computer to run this project. Yo
 ```bash
 node --version
 npm --version
-
+```
 ### Installation
 
 Clone the project repository to your local machine:
@@ -31,17 +31,17 @@ Clone the project repository to your local machine:
 ```bash
 git clone https://github.com/yourUsername/yourProjectName.git
 cd yourProjectName
-
+```
 ### Install the required dependencies:
 
 ```bash
 npm install
-
+```
 ### Running the Application
 Start the application with the following command:
 ```bash
 npm start
-
+```
 
 By default, the application will be available at http://localhost:1234, as configured for Parcel.
 
