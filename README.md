@@ -28,10 +28,6 @@ npm --version
 
 Clone the project repository to your local machine:
 
-```bash
-git clone https://github.com/yourUsername/yourProjectName.git
-cd yourProjectName
-```
 ### Install the required dependencies:
 
 ```bash
